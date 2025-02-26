@@ -1,0 +1,33 @@
+:root{
+    --bg-primary:rgb(246,217,250);
+    --text-primary:rgb(124,31,167);
+    --bg-button:rgb(136,84,160);
+    --text-btn:rgb(255,255,255);
+}
+body{
+    margin: 0;
+    background-color: var(--bg-primary);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main h1{
+    color: var(--text-primary);
+}
+main p{
+    color: var(--text-primary);
+}
+button{
+    background-color: var(--bg-button);
+    padding: 10px, 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--text-btn);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
