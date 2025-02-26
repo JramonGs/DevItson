@@ -24,10 +24,11 @@ main p{
 }
 button{
     background-color: var(--bg-button);
-    padding: 10px, 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     color: var(--text-btn);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
